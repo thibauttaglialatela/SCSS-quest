@@ -1,0 +1,22 @@
+@mixin ring($diameter, $color) {
+    border-radius: 50%;
+    border-width: $diameter / 5;
+    border-color: $color;
+    height: $diameter;
+    width: $diameter;
+    box-shadow: 11px 15px 5px 0px lighten($color, 5%);
+}
+
+.ring-1 {
+    @include ring(100px, orange);
+}
+
+.ring-2 {
+    @include ring(200px, yellow);
+}
+
+@for $i from 1 through 6 {
+    .ring#{$i} {
+        @include ring($i * 10px, #000);
+    }
+}

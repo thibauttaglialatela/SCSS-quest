@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Aniron';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aniron'), url('anirm___.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Aniron Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aniron Bold'), url('anirb___.woff') format('woff');
+    }
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Aniron', sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Aniron', sans-serif;
+    margin-left: 2rem;
+}
+
+.ring-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 25vh;
+}
+
+.precious {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.one-ring {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.text-ring {
+    align-self: center;
+}
+
+.ring-1 {
+    border-radius: 50%;
+    border-width: 20px;
+    border-color: orange;
+    height: 100px;
+    width: 100px;
+    box-shadow: 11px 15px 5px 0px #ffae1a;
+  }
+  
+  .ring-2 {
+    border-radius: 50%;
+    border-width: 40px;
+    border-color: yellow;
+    height: 200px;
+    width: 200px;
+    box-shadow: 11px 15px 5px 0px #ffff1a;
+  }
+  
+  .ring1 {
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: #000;
+    height: 10px;
+    width: 10px;
+    box-shadow: 11px 15px 5px 0px #0d0d0d;
+  }
+  
+  .ring2 {
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #000;
+    height: 20px;
+    width: 20px;
+    box-shadow: 11px 15px 5px 0px #0d0d0d;
+  }
+  
+  .ring3 {
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #000;
+    height: 30px;
+    width: 30px;
+    box-shadow: 11px 15px 5px 0px #0d0d0d;
+  }
+  
+  .ring4 {
+    border-radius: 50%;
+    border-width: 8px;
+    border-color: #000;
+    height: 40px;
+    width: 40px;
+    box-shadow: 11px 15px 5px 0px #0d0d0d;
+  }
+  
+  .ring5 {
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: #000;
+    height: 50px;
+    width: 50px;
+    box-shadow: 11px 15px 5px 0px #0d0d0d;
+  }
+  
+  .ring6 {
+    border-radius: 50%;
+    border-width: 12px;
+    border-color: #000;
+    height: 60px;
+    width: 60px;
+    box-shadow: 11px 15px 5px 0px #0d0d0d;
+  }
